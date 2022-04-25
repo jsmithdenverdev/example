@@ -16,5 +16,5 @@ func main() {
 	fmt.Print("Enter your name: ")
 	name, _ := reader.ReadString('\n')
 
-	fmt.Printf("Hello, %s\n", name)
+	fmt.Printf("Greetings, %s\n", name)
 }
