@@ -16,5 +16,6 @@ func main() {
 	fmt.Print("Enter your name: ")
 	name, _ := reader.ReadString('\n')
 
-	fmt.Printf("Greetings, %s\n", name)
+	// TODO: Allow a user to select a different greeting
+	fmt.Println(englishGreeter(name))
 }
